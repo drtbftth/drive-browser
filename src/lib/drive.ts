@@ -30,7 +30,8 @@ function getDriveService() {
   }
 
   // Handle potential escaping issues with the private key
-  privateKey = privateKey.replace(/\\n/g, '\n');
+  // Remove quotes if they were included in the env variable
+  privateKey = privateKey.replace(/"/g, '').replace(/\\n/g, '\n');
 
   const auth = new google.auth.GoogleAuth({
     credentials: {
