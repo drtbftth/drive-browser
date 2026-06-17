@@ -12,10 +12,10 @@ export function Hero() {
         className="space-y-4 max-w-3xl"
       >
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">
-          Your Files, <span className="text-muted-foreground">Beautifully Organized.</span>
+          Your Files, <span className="text-muted-foreground">Evidence. Knowledge. Practice.</span>
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-          Experience a lightning-fast, premium interface for your Google Drive. Preview, search, and share files with ease.
+          Cuộc đời thì ngắn, mà nghề thì miên man; cơn bệnh phập phù; kinh nghiệm hiểm nguy, còn quyết định thì thật khó. Người thầy thuốc không phải chỉ chuẩn bị để tự mình làm những gì là đúng, mà còn làm cho bệnh nhân, người đi theo và các yếu tố xung quanh hợp tác hài hòa.”
         </p>
       </motion.div>
     </section>
